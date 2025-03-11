@@ -27,8 +27,8 @@ function main() {
     echo $i;
 
     $animal = new Dog();
-    echo $name; // 出力されない
-    echo $age; // 出力されない
+    // echo $name; // 出力されない
+    // echo $age; // 出力されない
     echo $animal->name; // 出力される
 }
 
