@@ -4,18 +4,25 @@ namespace Src\Station12\Practice;
 
 class Animal
 {
-    public function eat()
-    {
-        echo '食べる';
-    }
+  public $type;
 
-    public function sleep()
-    {
-        echo '寝る';
-    }
+  public function __construct($type)
+  {
+    $this->type = $type;
+  }
+  
+  public function eat()
+  {
+    echo '食べる';
+  }
 
-    public function active()
-    {
-        echo '活動する';
-    }
+  public function sleep()
+  {
+    echo '寝る';
+  }
+
+  public function active()
+  {
+    echo '活動する';
+  }
 }
